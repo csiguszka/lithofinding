@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>egyeb</div>
+  <Product :title="'Egyéb'" :src="'/gombTortan2HatterNelkul.png'" />
 </template>

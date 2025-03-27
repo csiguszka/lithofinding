@@ -53,7 +53,7 @@ const getClass = (path: string) => {
       </NuxtLink>
     </div>
     <div>
-      <div class="h-20 w-20 mr-4 rounded-full bg-amber-950"></div>
+      <MenuTrigger />
     </div>
   </header>
 </template>

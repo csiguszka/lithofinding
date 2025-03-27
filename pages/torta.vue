@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>torta</div>
+  <Product :title="'Litofán torta'" :src="'/csalad2TortaHatterNelkul.png'" />
 </template>
