@@ -1,0 +1,1 @@
+import{_ as e}from"./BgjiI8v3.js";import{_ as o,j as c,o as r}from"./4CTVBn2K.js";const n={};function s(_,a){const t=e;return r(),c(t,{title:"Művészet",src:"/gombTortan2HatterNelkul.png"})}const p=o(n,[["render",s]]);export{p as default};

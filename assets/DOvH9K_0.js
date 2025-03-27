@@ -1,0 +1,1 @@
+import{k as t,ah as n,c as a,o as c,ai as r}from"./4CTVBn2K.js";const i=t({__name:"custom",setup(l){const e=n(),o=()=>{e.close()};return(s,u)=>(c(),a("div",{class:"bg-[#f0e2ce]",onClick:o},[r(s.$slots,"default")]))}});export{i as default};

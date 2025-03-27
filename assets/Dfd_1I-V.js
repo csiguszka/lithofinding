@@ -1,0 +1,1 @@
+import{_ as t}from"./BgjiI8v3.js";import{k as n,j as o,o as s}from"./4CTVBn2K.js";const p=n({__name:"sutemeny",setup(c){return(r,a)=>{const e=t;return s(),o(e,{title:"Litofán sütemény",src:"/zselatinonMecses4HatterNelkul.png"})}}});export{p as default};

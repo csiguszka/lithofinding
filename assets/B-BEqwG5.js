@@ -1,0 +1,1 @@
+import{q as a,c as s,t,P as r,o as n}from"./4CTVBn2K.js";const i={__name:"[id]",setup(p){const e=a();return console.log(e.params.id),(o,u)=>(n(),s("div",null,"product id: "+t((o._.provides[r]||o.$route).params.id),1))}};export{i as default};

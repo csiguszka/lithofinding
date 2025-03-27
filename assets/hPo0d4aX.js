@@ -1,0 +1,1 @@
+import{_ as o}from"./BgjiI8v3.js";import{_ as r,j as c,o as a}from"./4CTVBn2K.js";const e={};function n(s,_){const t=o;return a(),c(t,{title:"Litofán torta",src:"/csalad2TortaHatterNelkul.png"})}const l=r(e,[["render",n]]);export{l as default};
