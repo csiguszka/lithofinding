@@ -38,8 +38,16 @@ const handleOnClick = () => {
     </div>
     <div @click="handleOnClick">
       <NuxtLink
-        to="/kapcsolat"
+        to="/galeria"
         class="absolute top-[192px] text-3xl left-1 cursor-pointer"
+      >
+        AI Galéria
+      </NuxtLink>
+    </div>
+    <div @click="handleOnClick">
+      <NuxtLink
+        to="/kapcsolat"
+        class="absolute top-[232px] text-3xl left-1 cursor-pointer"
       >
         Kapcsolat
       </NuxtLink>

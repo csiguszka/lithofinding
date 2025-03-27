@@ -11,6 +11,7 @@
           <NuxtLink class="cursor-pointer" to="/csokolade-lithofan"
             >Csokoládé litofán</NuxtLink
           >
+          <NuxtLink to="/galeria" class="cursor-pointer">AI Galéria</NuxtLink>
           <NuxtLink to="/kapcsolat" class="cursor-pointer">Kapcsolat</NuxtLink>
         </div>
       </div>
