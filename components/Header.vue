@@ -9,9 +9,16 @@ const getClass = (path: string) => {
 </script>
 
 <template>
-  <header class="flex justify-between p-5 items-center h-24 sticky">
+  <header class="flex md:flex-row justify-between p-5 items-center h-24 sticky">
     <img src="/logo.png" alt="lithofinding logo" class="h-full" />
-    <div class="flex gap-16">
+    <div
+      v-if="
+        route.path === '/sutemeny' ||
+        route.path === '/' ||
+        route.path === '/muveszet'
+      "
+      class="md:flex md:gap-16 fixed md:static left-1/2 -translate-x-1/2 md:translate-0"
+    >
       <NuxtLink
         to="sutemeny"
         active-class="text-amber-950"
@@ -26,27 +33,24 @@ const getClass = (path: string) => {
         <span>Sütemény</span>
       </NuxtLink>
       <NuxtLink
-        to="/torta"
+        to="/"
         active-class="text-amber-950"
         class="flex items-center gap-3"
       >
         <div
-          :class="[
-            'rounded-full w-3 h-3 ring-amber-950 ring-2',
-            getClass('/torta'),
-          ]"
+          :class="['rounded-full w-3 h-3 ring-amber-950 ring-2', getClass('/')]"
         />
         <span>Torta</span>
       </NuxtLink>
       <NuxtLink
-        to="/egyeb"
+        to="/muveszet"
         active-class="text-amber-950"
         class="flex items-center gap-3"
       >
         <div
           :class="[
             'rounded-full w-3 h-3 ring-amber-950 ring-2',
-            getClass('/egyeb'),
+            getClass('/muveszet'),
           ]"
         />
         <span>Művészet</span>

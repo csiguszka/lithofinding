@@ -1,17 +1,17 @@
 <template>
   <footer>
     <div
-      class="flex justify-between text-amber-950"
+      class="flex sm:flex-row flex-col gap-5 sm:gap-0 items-center justify-between text-amber-950"
       style="padding: 0rem 3rem 1rem 3rem !important"
     >
-      <div>
+      <div class="hidden md:block">
         <h1 class="font-bold">Menü</h1>
         <div class="flex flex-col">
-          <NuxtLink class="cursor-pointer" to="csokolade-lithofan"
+          <NuxtLink to="/" class="cursor-pointer">Kezdőlap</NuxtLink>
+          <NuxtLink class="cursor-pointer" to="/csokolade-lithofan"
             >Csokoládé litofán</NuxtLink
           >
-          <NuxtLink class="cursor-pointer">Rólunk</NuxtLink>
-          <NuxtLink class="cursor-pointer">Blabla</NuxtLink>
+          <NuxtLink to="/kapcsolat" class="cursor-pointer">Kapcsolat</NuxtLink>
         </div>
       </div>
       <div>

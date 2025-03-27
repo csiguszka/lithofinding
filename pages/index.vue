@@ -1,11 +1,5 @@
-<script lang="ts" setup>
-// const { sayHello } = useUtils();
-// sayHello();
-// const { $sayHello } = useNuxtApp();
-// $sayHello("What's going on?");
-// const response = await $fetch("/api/hello");
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div>index.vue</div>
+  <Product :title="'Litofán torta'" :src="'/csalad2TortaHatterNelkul.png'" />
 </template>

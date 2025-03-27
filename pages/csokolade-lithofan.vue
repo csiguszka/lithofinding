@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="flex flex-col items-center text-amber-950">
-      <div class="text-6xl flex gap-9 mb-12 font-bold">
-        <h1 class="">Csokoládé</h1>
+      <div class="text-3xl md:text-6xl flex gap-9 mb-4 md:mb-12 font-bold">
+        <h1>Csokoládé</h1>
         <h1>litofán</h1>
       </div>
       <div
@@ -24,16 +24,16 @@
         class="flex gap-10"
       >
         <div
-          class="bg-[url(/csalad2Torta4.jpg)] bg-center w-80 h-80 bg-cover rounded-full hover:size-[330px] duration-200 transition-all origin-center"
+          class="bg-[url(/csalad2Torta4.jpg)] bg-center w-40 h-40 md:w-80 md:h-80 bg-cover rounded-full hover:size-[330px] duration-200 transition-all origin-center"
         ></div>
         <div
-          class="bg-[url(/kismecsesCsendelet.jpg)] bg-center w-80 h-80 bg-cover rounded-full hover:size-[330px] duration-200 transition-all origin-center"
+          class="bg-[url(/kismecsesCsendelet.jpg)] bg-center w-40 h-40 md:w-80 md:h-80 bg-cover rounded-full hover:size-[330px] duration-200 transition-all origin-center"
         ></div>
       </div>
-      <h1 class="text-4xl">Az emlékezetes pillanatokhoz</h1>
+      <h1 class="md:text-4xl text-xl">Az emlékezetes pillanatokhoz</h1>
       <div
         v-motion-slide-visible-bottom
-        class="flex gap-10 items-center justify-center mt-12"
+        class="flex md:flex-row flex-col gap-10 items-center justify-center mt-12"
       >
         <div
           class="bg-[url(/eljenAzIfjuParTorta2.jpg)] rounded-2xl bg-center w-80 h-80 bg-cover hover:size-[330px] duration-200 transition-all origin-center"
@@ -55,7 +55,7 @@
       </div>
       <div
         v-motion-slide-visible-bottom
-        class="flex gap-10 items-center justify-center mt-12"
+        class="flex md:flex-row flex-col-reverse gap-10 items-center justify-center mt-12"
       >
         <div class="max-h-80 h-80 max-w-96 text-justify p-4">
           <p>
@@ -87,7 +87,7 @@
         </p>
       </blockquote>
       <div v-motion-slide-visible-once-right>
-        <v-btn class="mb-14">Felveszem a kapcsolatot</v-btn>
+        <v-btn to="/kapcsolat" class="mb-6">Felveszem a kapcsolatot</v-btn>
       </div>
     </div>
   </div>
