@@ -9,7 +9,6 @@ defineProps({
     required: true,
   },
 });
-import { ref, onMounted, onUnmounted } from "vue";
 
 const imageRef = ref<HTMLElement | null>(null);
 const containerRef = ref<HTMLElement | null>(null);
@@ -86,8 +85,8 @@ onUnmounted(() => {
       <NuxtLink
         to="/csokolade-lithofan"
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-        >Részletek</NuxtLink
-      >
+        >Részletek
+      </NuxtLink>
     </div>
   </div>
 </template>

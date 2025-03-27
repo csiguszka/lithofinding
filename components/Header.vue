@@ -49,7 +49,7 @@ const getClass = (path: string) => {
             getClass('/egyeb'),
           ]"
         />
-        <span>Egyéb</span>
+        <span>Művészet</span>
       </NuxtLink>
     </div>
     <div>

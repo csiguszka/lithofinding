@@ -7,7 +7,9 @@
       <div>
         <h1 class="font-bold">Menü</h1>
         <div class="flex flex-col">
-          <NuxtLink class="cursor-pointer">Termékek</NuxtLink>
+          <NuxtLink class="cursor-pointer" to="csokolade-lithofan"
+            >Csokoládé litofán</NuxtLink
+          >
           <NuxtLink class="cursor-pointer">Rólunk</NuxtLink>
           <NuxtLink class="cursor-pointer">Blabla</NuxtLink>
         </div>
